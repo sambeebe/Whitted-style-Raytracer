@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		53F9A0540B8C444FBB67C5FC /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8EA968C151504A73A7455C2E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				08F33794904B4D87B5145463 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		94DCB89CCF7A4F07B93D8C96 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6BEFC6733FE348FFBBD0E174 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B2C86797F55D4094ABDF8F7C /* CMake Rules */,
+			);
+			dependencies = (
+				A2B270F5A36E444B9088CCED /* PBXTargetDependency */,
+				7DE75253F877485BBC86ED85 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0878E97AEC604F1592B2B4B1 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = DABACC2D7D144D8C8A9AC975 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/window.c */; };
+		115ACD006CB04CDCBFC46039 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = D816D55E8E244D4999506405 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_monitor.m */; };
+		12FE710B9621469FBF9F17A3 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 5D14ADC587494FE2B115FABE /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_joystick.m */; };
+		18C0EB7560F34C5DB5169C96 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = CD44F0A40ADB40BD81DE9DB6 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/vulkan.c */; };
+		23C725538F3C4570883100D3 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 2BA8122885CA4E0EA062D82B /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_init.m */; };
+		2530F056842448A39BF5984A /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = EC6EC02D9D06400FB0772CA1 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/monitor.c */; };
+		2ADCCE3445F0410D885F01F7 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = DF69B125E78C41E195B52C84 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/src/glfw_config.h */; };
+		2D35B7F94D6540CEA8C90640 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 92A17AE2DB6F46F8AB810862 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/include/GLFW/glfw3native.h */; };
+		2E466DC5E116467E80AC85FA /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = D894D37785C74E8999C3F483 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_joystick.h */; };
+		38A14AF51E5946CD922FB062 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 846183835FCB4884A87641F1 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_platform.h */; };
+		53E5D9C890404CB99A048978 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = 5F9FD28CB230408A9E3DF065 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/init.c */; };
+		5D574C11DC6A47F3B9F57924 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = C1B1E48553EC4FFB9899E108 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/include/GLFW/glfw3.h */; };
+		5DDB3C9355554D6A8C531C7A /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 3869FC4CA1E8459F9C9303E8 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/posix_tls.h */; };
+		6D03295AEDE34A8B881AE38F /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 47A351A27FA2419DAD038D86 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_window.m */; };
+		731D66A8A71A4F6C92A24ED7 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = 9DB985326799450189589ED9 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/internal.h */; };
+		79C574DC2C204964A5DB6C35 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 5EE9F1F147594ED1AECFEE8C /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/posix_tls.c */; };
+		96531D460FCA48A9BE4B3C39 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 4EA3B25CCB524C4C9DE42AD7 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_time.c */; };
+		A4A3EED9E5FB4089BB11F495 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D2F4256EAA0C483B98FAEE54 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/CMakeLists.txt */; };
+		B489E5F6B7244DDF84ABFAC9 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 036B90FB675B4E358CA5ADA5 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/nsgl_context.m */; };
+		C1720EDEC8F04719B202346E /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = 84D6378C0C3F45B6B737ECD4 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/input.c */; };
+		D731A9B4902147488D4A37BE /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = 2BB199C091E84B57B067F97A /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/context.c */; };
+		EEDBDB2B3C2D4872AE6D91F2 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 246C324339A3460FA71FA660 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/nsgl_context.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		783B4A18F5BD4988BACEFDF6 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		B055BCAA26E34C53938B1445 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B74C3DC35EA54A0294F4DAE9 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C3626876A3E643549C8D14A6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		448D27B4D3E14FC08E5D5905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33432D4CC5614324B24087AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F9A0540B8C444FBB67C5FC;
+			remoteInfo = ZERO_CHECK;
+		};
+		46703F4C11A4417E9A3CFFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33432D4CC5614324B24087AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B9D6D1AA4F24D9BB20F1496;
+			remoteInfo = glfw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036B90FB675B4E358CA5ADA5 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		246C324339A3460FA71FA660 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		2BA8122885CA4E0EA062D82B /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		2BB199C091E84B57B067F97A /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		3869FC4CA1E8459F9C9303E8 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		47A351A27FA2419DAD038D86 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		481528921F9248549265297E /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4EA3B25CCB524C4C9DE42AD7 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		5D14ADC587494FE2B115FABE /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		5EE9F1F147594ED1AECFEE8C /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = src/posix_tls.c; sourceTree = SOURCE_ROOT; };
+		5F9FD28CB230408A9E3DF065 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		846183835FCB4884A87641F1 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		84D6378C0C3F45B6B737ECD4 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		92A17AE2DB6F46F8AB810862 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		9DB985326799450189589ED9 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		C1B1E48553EC4FFB9899E108 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		C7514663C6864ED7A18D47C5 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD44F0A40ADB40BD81DE9DB6 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		D2F4256EAA0C483B98FAEE54 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D816D55E8E244D4999506405 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		D894D37785C74E8999C3F483 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		DABACC2D7D144D8C8A9AC975 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		DF69B125E78C41E195B52C84 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		EC6EC02D9D06400FB0772CA1 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0FD21CFDBD7141E6BD75DE66 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				D87AEE7C15CA4596ABA8F6FB /* Source Files */,
+				5D48075DD6C046478FFCECF8 /* Header Files */,
+				D2F4256EAA0C483B98FAEE54 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		276C674936304AE8B3F397D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7514663C6864ED7A18D47C5 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B2AE61FBB884135B1F848D9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		53BFD6974A324057A050DFF4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3B2AE61FBB884135B1F848D9 /* CMake Rules */,
+				481528921F9248549265297E /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5D48075DD6C046478FFCECF8 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF69B125E78C41E195B52C84 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/src/glfw_config.h */,
+				C1B1E48553EC4FFB9899E108 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/include/GLFW/glfw3.h */,
+				92A17AE2DB6F46F8AB810862 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/include/GLFW/glfw3native.h */,
+				D894D37785C74E8999C3F483 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_joystick.h */,
+				846183835FCB4884A87641F1 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_platform.h */,
+				9DB985326799450189589ED9 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/internal.h */,
+				246C324339A3460FA71FA660 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/nsgl_context.h */,
+				3869FC4CA1E8459F9C9303E8 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		63015C2FE8DD4EF781254551 = {
+			isa = PBXGroup;
+			children = (
+				53BFD6974A324057A050DFF4 /* ALL_BUILD */,
+				C1389EC4C7B74A4B8A7FDDC5 /* GLFW3 */,
+				276C674936304AE8B3F397D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1389EC4C7B74A4B8A7FDDC5 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD21CFDBD7141E6BD75DE66 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		D87AEE7C15CA4596ABA8F6FB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA8122885CA4E0EA062D82B /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_init.m */,
+				5D14ADC587494FE2B115FABE /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_joystick.m */,
+				D816D55E8E244D4999506405 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_monitor.m */,
+				4EA3B25CCB524C4C9DE42AD7 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_time.c */,
+				47A351A27FA2419DAD038D86 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_window.m */,
+				2BB199C091E84B57B067F97A /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/context.c */,
+				5F9FD28CB230408A9E3DF065 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/init.c */,
+				84D6378C0C3F45B6B737ECD4 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/input.c */,
+				EC6EC02D9D06400FB0772CA1 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/monitor.c */,
+				036B90FB675B4E358CA5ADA5 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/nsgl_context.m */,
+				5EE9F1F147594ED1AECFEE8C /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/posix_tls.c */,
+				CD44F0A40ADB40BD81DE9DB6 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/vulkan.c */,
+				DABACC2D7D144D8C8A9AC975 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B9D6D1AA4F24D9BB20F1496 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079622A2F6384E18A3123D73 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				C670039EE8914A058F9B9624 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = C7514663C6864ED7A18D47C5 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33432D4CC5614324B24087AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 0C2610B8338D49CBA4EBCFA7 /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B055BCAA26E34C53938B1445 /* Debug */,
+				B74C3DC35EA54A0294F4DAE9 /* Release */,
+				783B4A18F5BD4988BACEFDF6 /* MinSizeRel */,
+				C3626876A3E643549C8D14A6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 63015C2FE8DD4EF781254551;
+			projectDirPath = "../../glfw-3.2";
+			projectRoot = "";
+			targets = (
+				94DCB89CCF7A4F07B93D8C96 /* ALL_BUILD */,
+				53F9A0540B8C444FBB67C5FC /* ZERO_CHECK */,
+				9B9D6D1AA4F24D9BB20F1496 /* glfw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F33794904B4D87B5145463 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969\\ 2/build/glfw-3.2 -f /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969\\ 2/build/glfw-3.2/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		0C32F3184E494B5F91A07A66 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4C6F7FD552574474BC843149 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B2C86797F55D4094ABDF8F7C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969\\ 2/build/glfw-3.2 -f /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969\\ 2/build/glfw-3.2/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C670039EE8914A058F9B9624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C725538F3C4570883100D3 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_init.m */,
+				12FE710B9621469FBF9F17A3 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_joystick.m */,
+				115ACD006CB04CDCBFC46039 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_monitor.m */,
+				96531D460FCA48A9BE4B3C39 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_time.c */,
+				6D03295AEDE34A8B881AE38F /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/cocoa_window.m */,
+				D731A9B4902147488D4A37BE /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/context.c */,
+				53E5D9C890404CB99A048978 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/init.c */,
+				C1720EDEC8F04719B202346E /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/input.c */,
+				2530F056842448A39BF5984A /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/monitor.c */,
+				B489E5F6B7244DDF84ABFAC9 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/nsgl_context.m */,
+				79C574DC2C204964A5DB6C35 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/posix_tls.c */,
+				18C0EB7560F34C5DB5169C96 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/vulkan.c */,
+				0878E97AEC604F1592B2B4B1 /* /Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DE75253F877485BBC86ED85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F9A0540B8C444FBB67C5FC /* ZERO_CHECK */;
+			targetProxy = 448D27B4D3E14FC08E5D5905 /* PBXContainerItemProxy */;
+		};
+		A2B270F5A36E444B9088CCED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B9D6D1AA4F24D9BB20F1496 /* glfw */;
+			targetProxy = 46703F4C11A4417E9A3CFFFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C6058C152634FF6971EA549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		13EC092661A94C3BB07163FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/build";
+			};
+			name = Debug;
+		};
+		1CEDC82D9F0841AFA400DBD7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		22759085593349C28B2E6EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/include\"","\"/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src\"","\"/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/src\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		359A9C15B6504F83899F234B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/include\"","\"/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src\"","\"/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/src\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4CB0590AEADA4E84BE1AFEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/include\"","\"/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src\"","\"/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/src\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6201101BF6DF4B5CBE44573C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		68DBC41DA8CA42F59A9416F4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6923521663814F499B1E8031 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/build";
+			};
+			name = RelWithDebInfo;
+		};
+		7A91B27C0C214F9C87559FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C00BD44DC7C74F108E8F8EDF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/include\"","\"/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/glfw-3.2/src\"","\"/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/src\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CDA1DEC6DA6948A8B9923CE7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D010BF9525484D9F967F30FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D8F047D4D8A141129DA5B6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/build";
+			};
+			name = Release;
+		};
+		DBD1B6AB4C9549829CF343F9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/build";
+			};
+			name = MinSizeRel;
+		};
+		F8E7DA09DB824B1DBD670554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		079622A2F6384E18A3123D73 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB0590AEADA4E84BE1AFEE6 /* Debug */,
+				22759085593349C28B2E6EFD /* Release */,
+				359A9C15B6504F83899F234B /* MinSizeRel */,
+				C00BD44DC7C74F108E8F8EDF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0C2610B8338D49CBA4EBCFA7 /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EC092661A94C3BB07163FE /* Debug */,
+				D8F047D4D8A141129DA5B6C6 /* Release */,
+				DBD1B6AB4C9549829CF343F9 /* MinSizeRel */,
+				6923521663814F499B1E8031 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6BEFC6733FE348FFBBD0E174 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A91B27C0C214F9C87559FC6 /* Debug */,
+				D010BF9525484D9F967F30FE /* Release */,
+				68DBC41DA8CA42F59A9416F4 /* MinSizeRel */,
+				1CEDC82D9F0841AFA400DBD7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8EA968C151504A73A7455C2E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6058C152634FF6971EA549 /* Debug */,
+				F8E7DA09DB824B1DBD670554 /* Release */,
+				6201101BF6DF4B5CBE44573C /* MinSizeRel */,
+				CDA1DEC6DA6948A8B9923CE7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33432D4CC5614324B24087AE /* Project object */;
+}

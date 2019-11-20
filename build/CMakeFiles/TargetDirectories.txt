@@ -1,0 +1,8 @@
+/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/CMakeFiles/raytracer.dir
+/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/CMakeFiles/glad.dir
+/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/CMakeFiles/ALL_BUILD.dir
+/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/CMakeFiles/ZERO_CHECK.dir
+/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/CMakeFiles/ALL_BUILD.dir
+/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/CMakeFiles/ZERO_CHECK.dir
+/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/glfw-3.2/src/CMakeFiles/glfw.dir
+/Users/sambeebe/Documents/summateaching-raytracing_template-85e0d17d3969 2/build/pngdecode/CMakeFiles/pngdecode.dir
